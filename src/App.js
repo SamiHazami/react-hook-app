@@ -13,7 +13,7 @@ function App() {
     <div>
       
       <nav>
-      <h1>Your Movies</h1>
+      <h1>My Movies</h1>
          <div className="nav-links">
           <Link to="/" className="link">
             Home
