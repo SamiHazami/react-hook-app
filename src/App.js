@@ -5,7 +5,7 @@ import "./styles.css";
 import Movies from "./components/Movies";
 import MovieCard from "./components/MovieCard";
 import HomePage from "./components/HomePage";
-
+import data from "./data"
 function App() {
   //const [data] = useState(movies);
   // console.log(data);
@@ -18,7 +18,7 @@ function App() {
           <Link to="/" className="link">
             Home
           </Link>
-          <Link to="/movie" className="link">
+          <Link to="/Movies" className="link">
             Movies
           </Link>
         </div>
@@ -26,8 +26,8 @@ function App() {
 
       <Routes>
         <Route path="/" element={<HomePage/>} />  
-        <Route path="movie" element={<Movies />} />
-        <Route path="movie-MovieCard" element={<MovieCard />} />    
+        <Route path="Movies" element={<Movies/>} />
+        <Route path="Movies-MovieCard" element={<MovieCard/>} />    
       </Routes> 
 
     </div>

@@ -8,7 +8,7 @@ const Movies = () => {
     <div className="home-page">
       <h1> hello my movies are </h1>
       <button>
-        <Link to="/Movies-MovieCard"> Movie Card </Link>
+        <Link to="Movies-MovieCard"> Movie Card </Link>
       </button>
 
     </div>
